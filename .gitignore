@@ -1,0 +1,27 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+.env
+data/
+reports/
+*.sqlite3
+*.egg-info/
+build/
+dist/
+
+# Local secrets and configuration
+.env.*
+!.env.example
+
+# Logs and local databases
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Private keys and credentials
+*.pem
+*.key
+*.token
+*.secret
